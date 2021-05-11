@@ -26,20 +26,49 @@ const About = () => {
               </Row>
             </Col>
             <Col xs={12} md={6}>
-              <Row className=" align-items-start p-2 my-details rounded">
-                I'm a self-taught Web Developer seeking to gain some experience
-                working on real projects. I can build logins, landing pages,
-                menus, etc. Using JavaScript, HTML, CSS, and various frameworks
-                and libraries such as React, Materialize, Styled Components, and
-                more. For the past two and a half years I've worked as a
-                professional language Teacher on italki teaching German and
-                English while learning Web Development on the side. I'm looking
-                forward to helping you with your project!
-                <Col className="d-flex justify-content-center flex-wrap">
+              <Row
+                className=" align-items-start p-4 my-details rounded"
+                style={{ lineHeight: "32px" }}
+              >
+                Hi I’m Linus,
+                <br />
+                I’m a self-taught Web Developer and language coach. Two years
+                ago I got into programming because I wanted to automate parts of
+                my language classes. So I started to learn the basics of
+                AutoHotkey, an automation scripting language for Windows.
+                <br />
+                Since then, I’ve started to learn more about software
+                development while continuing to teach languages, mainly English
+                and German.
+                <br />I learned the basics of HTML, CSS and Javascript, built my
+                own Telegram chatbot using Google Apps Script, and created a
+                declinator app to determine the correct German cases/endings.
+                <br />
+                By taking a Spanish Udemy Course I learned the MERN stack and
+                went on to build two Chrome Extension and one NPM package, which
+                have been my biggest projects so far.
+                <br />
+                Feel free to take a closer look at any of these projects on
+                GitHub!
+                <Col
+                  className="d-flex justify-content-center flex-wrap"
+                  style={{ marginTop: "14px" }}
+                >
                   <div>
                     <a href="#contact">
                       <Button className="m-2" variant="outline-primary">
                         Let's talk
+                      </Button>
+                    </a>
+                  </div>
+                  <div>
+                    <a
+                      href="https://github.com/gignupg"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Button className="m-2" variant="outline-dark">
+                        GitHub
                       </Button>
                     </a>
                   </div>

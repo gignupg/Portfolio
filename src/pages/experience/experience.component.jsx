@@ -60,7 +60,7 @@ const Experience = () => {
                       </li>
                       <li>
                         Taught <strong>four</strong> different languages.
-                        Communicated in <strong>six</strong> languages.
+                        Communicated in <strong>six</strong>.
                       </li>
                       {/* <li><strong>Co-created</strong> React Document used as a guide for new developers.</li> */}
                     </ul>
