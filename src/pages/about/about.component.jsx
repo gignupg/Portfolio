@@ -30,8 +30,6 @@ const About = () => {
                 className=" align-items-start p-4 my-details rounded"
                 style={{ lineHeight: "32px" }}
               >
-                Hi I’m Linus,
-                <br />
                 I’m a self-taught Web Developer and language coach. Two years
                 ago I got into programming because I wanted to automate parts of
                 my language classes. So I started to learn the basics of
@@ -73,7 +71,11 @@ const About = () => {
                     </a>
                   </div>
                   <div>
-                    <a href="!#" target="_blank" rel="noopener noreferrer">
+                    <a
+                      href="https://drive.google.com/file/d/11xbz23JCBKFj75IyfbZTtZDH3Pbc3d_y/view?usp=sharing"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <Button className="m-2" variant="outline-success">
                         My Resume
                       </Button>

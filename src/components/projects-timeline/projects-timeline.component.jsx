@@ -14,22 +14,22 @@ const TimeLine = () => {
       <h1 className="pt-3 text-center font-details-b pb-3">PROJECTS</h1>
       <Timeline>
         <Events>
-          {/* Project: Search Box Focus */}
+          {/* Project: Movie Subtitles */}
           <ImageEvent
-            date="25/01/2021"
+            date="07/05/2021"
             className="text-center"
-            text="Search Box Focus"
-            src={L_SEARCH_BOX_FOCUS}
-            alt="Search Box Focus"
+            text="Movie Subtitles"
+            src={L_MOVIE_SUBTITLES}
+            alt="Movie Subtitles"
           >
             <UrlButton
-              href="https://github.com/gignupg/Search-Box-Focus#search-box-focus"
+              href="https://github.com/gignupg/Movie-Subtitles#movie-subtitles"
               target="_blank"
             >
               GitHub
             </UrlButton>
             <UrlButton
-              href="https://chrome.google.com/webstore/detail/search-box-focus/amgmdnojamodmpfjaokfgpijhpcednjm"
+              href="https://chrome.google.com/webstore/detail/movie-subtitles/ifimcneililngppkpddcliecbpcgdjag/related?hl=en&authuser=1"
               target="_blank"
             >
               Web Store
@@ -58,22 +58,22 @@ const TimeLine = () => {
             </UrlButton>
           </ImageEvent>
 
-          {/* Project: Movie Subtitles */}
+          {/* Project: Search Box Focus */}
           <ImageEvent
-            date="07/05/2021"
+            date="25/01/2021"
             className="text-center"
-            text="Movie Subtitles"
-            src={L_MOVIE_SUBTITLES}
-            alt="Movie Subtitles"
+            text="Search Box Focus"
+            src={L_SEARCH_BOX_FOCUS}
+            alt="Search Box Focus"
           >
             <UrlButton
-              href="https://github.com/gignupg/Movie-Subtitles#movie-subtitles"
+              href="https://github.com/gignupg/Search-Box-Focus#search-box-focus"
               target="_blank"
             >
               GitHub
             </UrlButton>
             <UrlButton
-              href="https://chrome.google.com/webstore/detail/movie-subtitles/ifimcneililngppkpddcliecbpcgdjag/related?hl=en&authuser=1"
+              href="https://chrome.google.com/webstore/detail/search-box-focus/amgmdnojamodmpfjaokfgpijhpcednjm"
               target="_blank"
             >
               Web Store

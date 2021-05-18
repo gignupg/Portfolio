@@ -28,7 +28,7 @@ const ContactForm = () => {
             </div>
             <div className="m-2">
               <a
-                href="https://linkedin.com/in/linus-komnick-83a036212"
+                href="https://linkedin.com/in/linuskomnick"
                 target="_blank"
                 rel="noopener noreferrer"
               >
