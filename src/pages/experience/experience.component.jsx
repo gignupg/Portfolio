@@ -18,10 +18,7 @@ const Experience = () => {
                 as="h5"
                 className="d-flex justify-content-center flex-wrap"
               >
-                <a
-                  href="https://teach.italki.com/teacher/3637579"
-                  target="blank"
-                >
+                <a href="https://www.italki.com/teacher/3637579" target="blank">
                   <Card.Img
                     variant="top"
                     className="img-resize"
